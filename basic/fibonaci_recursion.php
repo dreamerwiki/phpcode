@@ -1,4 +1,12 @@
 <?php
+
+/*
+ Fibonaci Sequence
+ step 1: print first number 
+ step 2: add n1 and n2 and save in n3
+ step 3: save n2 in n1 and n3 in n2
+ step 4: repeat
+*/
 $num = 10;
 $n1 = 0; $n2=1; $n3='';
 fs($n1,$n2,$n3,$num);
